@@ -1,4 +1,4 @@
-FROM opensearchproject/logstash-oss-with-opensearch-output-plugin:7.16.3
+FROM opensearchproject/logstash-oss-with-opensearch-output-plugin:8.9.0
 
 RUN /usr/share/logstash/bin/logstash-plugin install logstash-input-kinesis
 RUN /usr/share/logstash/bin/logstash-plugin install logstash-output-kinesis
